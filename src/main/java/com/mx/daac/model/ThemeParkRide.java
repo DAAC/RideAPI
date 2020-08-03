@@ -22,8 +22,7 @@ public class ThemeParkRide {
     public ThemeParkRide() {
     }
 
-    public ThemeParkRide(Long id, String name, String description, int thrillFactor, int vomitFactor) {
-        this.id = id;
+    public ThemeParkRide(String name, String description, int thrillFactor, int vomitFactor) {
         this.name = name;
         this.description = description;
         this.thrillFactor = thrillFactor;
